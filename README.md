@@ -1,23 +1,76 @@
-# Next.js + Tailwind CSS Example
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# CMS BLOG APPLICATION
 
-## Deploy your own
+> This is an application with featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog Application. Clients can manage the blog from a dedicated Content Management System.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Live Demo
 
-## How to use
+[Live demo](https://cms-blog-mm0wjlqiq-fadahunsiseyi.vercel.app/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Built With
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- NextJs
+- Graphql
+- Javascript
+- React
+- GraphCMS
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Getting Started
+
+### Prerequisites
+
+- Node
+- NPM ( Node Package Manager )
+- Git and Github Account
+
+### Setup
+
+- Run git clone on this project at the desired directory:
+  ```
+  git clone https://github.com/Fadahunsiseyi/cms_blog.git
+  ```
+  ```
+  cd cms_blog
+  ```
+- Install dependencies
+
+  ```
+  npm install
+  ```
+
+- Start React Dev Server
+  ```
+  npm run dev
+  ```
+- On your favourite browser go to http://localhost:3000/
+
+### Tests
+
+- **Webhint** linter -`npx hint .` on the root directory.
+- **Stylelint** linter - `npx stylelint "**/*.{css,scss}"` on the root directory.
+- **ESLint** linter - `npx eslint .` on the root directory.
+
+## Authors
+
+👤 **Fadahunsi seyi**
+
+- GitHub: [Fadahunsiseyi](https://github.com/Fadahunsiseyi)
+- Twitter: [Fadahunsiseyi_](https://twitter.com/@Fadahunsiseyi_)
+- LinkedIn: [fadahunsi-seyi-samuel](https://www.linkedin.com/in/fadahunsi-seyi-samuel-49191a209/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Fadahunsiseyi/cms_blog/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
