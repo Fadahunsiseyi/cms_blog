@@ -4,7 +4,6 @@ import parse from 'html-react-parser'
 import { getComments } from '../services'
 
 const Comments = ({slug}) => {
-    console.log(slug,'make we see')
     const [comments, setComments] = useState([])
     useEffect(() => {
        getComments(slug)
