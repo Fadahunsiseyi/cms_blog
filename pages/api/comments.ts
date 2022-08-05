@@ -13,7 +13,6 @@ export default async function comments(
   res: NextApiResponse<Data>
 ) {
   console.log({graphcmsToken})
-  // const {name, email,slug,comment} = req.body
   const graphQLClient = new GraphQLClient(graphqlAPI, {
     headers: {
       authorization: `Bearer ${graphcmsToken}`

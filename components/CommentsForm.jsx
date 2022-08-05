@@ -40,6 +40,9 @@ const CommentsForm = ({slug}) => {
                 setShowSuccessMessage(false)
             }, 3000);
         })
+       nameEl.current.value = ''
+       commentEl.current.value = ''
+       emailEl.current.value = ''
     }
   return (
     <div className='bg-white shadow-lg rounded-lg p-8 pb-12 mb-8'>
