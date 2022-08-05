@@ -124,9 +124,14 @@ export const getCategories = async () => {
 }
 
 export const submitComment = async (obj) => {
+  console.log(obj,'the object line 127')
   const result = await fetch('/api/comments', {
     method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
     body: JSON.stringify(obj),
   })
-  result.json()
+  // console.log( result.json(), 'to see the json',result)
+ return result.json()
 }
